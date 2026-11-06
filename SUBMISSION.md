@@ -7,7 +7,9 @@
 
 ## Placeholders to fill before submitting (from PACKAGE.md §3)
 
-- `[REPO_URL]` — public repo under **나소정's own GitHub account** (not yet created)
+- Repository — https://github.com/Aminoragit/splitpal-ai — public repo hosted
+  under **Aminoragit** per the user's decision; entrant/author is **Sojung Na**
+  and the LICENSE copyright is Sojung Na (MIT licence visible in the repo).
 - `[DEMO_URL]` — hosted demo (not yet deployed)
 - `[VIDEO_URL]` — public YouTube demo video, < 3 min (not yet recorded)
 - Gallery screenshots — capture from the running app
@@ -19,10 +21,16 @@
 
 1. Confirm eligibility facts (PACKAGE.md §5.1).
 2. 나소정's own Devpost account → Join Hackathon.
-3. Create public GitHub repo under her account, push this code, MIT licence
-   visible in About.
+3. ~~Create public GitHub repo~~ — DONE: https://github.com/Aminoragit/splitpal-ai
+   (public, MIT licence, hosted under Aminoragit per the user's decision;
+   entrant/author Sojung Na). Latest local commits are pushed by the parent
+   via the GitHub snapshot flow.
 4. PayPal Sandbox app credentials under an account she controls → set env →
    run ≥2 real Sandbox captures → record capture IDs.
-5. Deploy hosted demo (e.g. Render free tier) or rely on README run steps.
+5. Deploy hosted demo — a Render blueprint (`render.yaml`) is prepared in the
+   repo root: create the service on Render from the GitHub repo
+   (Aminoragit/splitpal-ai) and optionally enter PayPal Sandbox credentials
+   there; with no credentials the app still runs in clearly-labelled mock mode.
+   Or rely on README run steps.
 6. Record demo video per PACKAGE.md script, upload public to YouTube.
 7. Submit on Devpost by 2026-11-12 23:59 KST and verify the entry appears.

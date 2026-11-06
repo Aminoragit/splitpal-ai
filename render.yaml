@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: splitpal-ai
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npx next start -p $PORT
+    envVars:
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_BASE_URL
+        sync: false
+      - key: PAYPAL_ENV
+        value: sandbox
