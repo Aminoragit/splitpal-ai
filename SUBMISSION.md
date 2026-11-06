@@ -10,7 +10,7 @@
 - Repository — https://github.com/Aminoragit/splitpal-ai — public repo hosted
   under **Aminoragit** per the user's decision; entrant/author is **Sojung Na**
   and the LICENSE copyright is Sojung Na (MIT licence visible in the repo).
-- `[DEMO_URL]` — hosted demo (not yet deployed)
+- Demo: https://splitpal-ai.onrender.com — live on Render (free plan; may sleep, first load can take ~50s). Currently runs in labelled DEMO MODE until PayPal Sandbox credentials are added in the Render dashboard.
 - `[VIDEO_URL]` — public YouTube demo video, < 3 min (not yet recorded)
 - Gallery screenshots — capture from the running app
 - Update PACKAGE.md "Challenges" / "Accomplishments" with real build facts
